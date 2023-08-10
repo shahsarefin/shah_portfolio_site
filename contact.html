@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--
+        1. Html Validation done
+    -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact_</title>
+    <!-- Css linked -->
+    <link rel="stylesheet" href="index.css"> 
+</head>
+<body>
+   <!--Header & Navbar-->
+   <header id="header">
+    <nav id="nav" class="container">
+        <div id="nav-menu">
+            <ul id="nav-list">
+                <li>
+                    <a href="index.html" id="nav-link1" class="active-link">Home</a>
+                </li>
+                <li>
+                    <a href="skills.html" id="nav-link2" class="active-link">Skills</a>
+                </li>
+                <li>
+                    <a href="resume.html" id="nav-link3" class="active-link">Resume</a>
+                </li>
+                <li>
+                    <a href="portfolio.html" id="nav-link4" class="active-link">Portfolio</a>
+                </li>
+                <li>
+                    <a href="blog.html" id="nav-link5" class="active-link">Blog</a>
+                </li>
+                <li>
+                    <a href="contact.html" id="nav-link6" class="active-link">Contact</a>
+                </li>
+            </ul>
+            
+            <div id="nav-close">
+                <i class="ri-close-fill"></i>
+            </div>
+        </div>
+        <div id="nav-toggle">
+            <i class="ri-menu-fill"></i>
+        </div>
+    </nav>
+</header>
+
+   <main class="main">
+        <section class="contact section" id="contact">
+            <div class="contact-content container">
+                <h2 class="contact-title">Get In Touch_</h2>
+
+                <div class="contact-container grid">
+                    <div class="contact-info">
+                        <dl class="contact-list">
+                            <dt>Phone:</dt>
+                            <dd>1(234)566-78-90</dd>
+                            <dt>Twitter:</dt>
+                            <dd>@Tanw33R</dd>
+                            <dt>Email:</dt>
+                            <dd>shahsarefin@gmail.com</dd>
+                        </dl>
+                    </div>
+
+                        <div class="contact-form">
+                            <p class="contact-form-title">You Can Write Me Here_</p>
+                        
+                            <form id="contact-form">
+                                
+                                <!-- Name -->
+                                <div class="contact-input-div">
+                                    <label for="contact-name">YOUR NAME:</label>
+                                    <input type="text" placeholder="Your Name" class="contact-input" id="contact-name">
+                                    <div class="error-message"></div>
+                                </div>
+                        
+                                <!-- Phone Number -->
+                                <div class="contact-input-div">
+                                    <label for="contact-phone">PHONE NUMBER:</label>
+                                    <input type="tel" placeholder="Your Phone Number" class="contact-input" id="contact-phone">
+                                    <div class="error-message"></div>
+                                </div>
+                        
+                                <!-- Email -->
+                                <div class="contact-input-div">
+                                    <label for="contact-email">EMAIL:</label>
+                                    <input type="email" placeholder="Your e-mail" class="contact-input" id="contact-email">
+                                    <div class="error-message"></div>
+                                </div>
+                        
+                                <!-- Comments -->
+                                <div class="contact-input-div">
+                                    <label for="message">MESSAGE:</label>
+                                    <textarea placeholder="Type your message here" class="contact-input" id="message" cols="30" rows="10"></textarea>    
+                                    <div class="error-message"></div>   
+                                </div>
+                        
+                               <div class="button-container">
+                                 <!-- Submit button -->
+                                 <button type="submit" class="button contact-button">submit</button>
+                                
+                                 <!-- Reset Button -->
+                                 <button type="reset" class="button reset-button">Reset</button>
+                               </div>
+                            </form>
+                        </div>
+                        
+                    </div>
+                </div>
+        </section>
+
+   </main>
+   <footer>
+    <div class="footer-container">
+        <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <p>&copy; 2023 Shah. All rights reserved.</p>
+    </div>
+</footer>
+    
+
+    <script src="index.js"></script>
+</html>
+
+
