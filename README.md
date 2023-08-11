@@ -40,4 +40,4 @@ The project has been deployed using GitHub Pages, making it accessible online.
 
 ## Usage
 
-To view the website, simply visit the following link: [Shah Portfolio Website](https://your-github-username.github.io/shah_portfolio_site)
+To view the website, simply visit the following link: [Shah Portfolio Website](https://shahsarefin.github.io/shah_portfolio_site/)
