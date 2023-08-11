@@ -564,23 +564,21 @@ label {
     margin-bottom: 3.25rem;
 }
 
-.contact-list dt{
-    float: left;
-    font-weight: bold;
-    text-transform: uppercase;
+.contact-list {
+    display: flex;
+    flex-direction: column;
 }
 
-.contact-list dd{
-    padding-left: 6.25em;
-    margin-bottom: 0.94em;
-}
-
-.contact-social li{
-    margin-bottom: 0.75rem;
-}
-
-.contact-social-link{
+.contact-item {
+    margin-bottom: 10px; 
+    text-decoration: none;
+    color: #fff; 
     font-family: 'Roboto Mono';
+    font-weight: bold;
+}
+
+.contact-item:hover {
+    text-decoration: underline;
 }
 
 .contact-form{
