@@ -1,129 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
-    <!--
+  <!--
         -I've added all the documentation in README.md file
         -Live site link : https://shahsarefin.github.io/shah_portfolio_site/
     -->
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shah's_ Portfolio_ Site_</title>
     <!-- using remix icons through CDN-->
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
     <!-- Css linked -->
-    <link rel="stylesheet" href="index.css">
-</head>
-<body>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
     <!-- Header -->
     <header id="header">
-        <nav id="nav" class="container">
-            <div id="nav-menu">
-                <ul id="nav-list">
-                    <li>
-                        <a href="index.html" id="nav-link1" class="active-link">Home</a>
-                    </li>
-                    <li>
-                        <a href="skills.html" id="nav-link2" class="active-link">Skills</a>
-                    </li>
-                    <li>
-                        <a href="resume.html" id="nav-link3" class="active-link">Resume</a>
-                    </li>
-                    <li>
-                        <a href="portfolio.html" id="nav-link4" class="active-link">Portfolio</a>
-                    </li>
-                    <li>
-                        <a href="blog.html" id="nav-link5" class="active-link">Blog</a>
-                    </li>
-                    <li>
-                        <a href="contact.html" id="nav-link6" class="active-link">Contact</a>
-                    </li>
-                </ul>
-                
-                <div id="nav-close">
-                    <i class="ri-close-fill"></i>
-                </div>
-            </div>
-            <div id="nav-toggle">
-                <i class="ri-menu-fill"></i>
-            </div>
-        </nav>
+      <nav id="nav" class="container">
+        <div id="nav-menu">
+          <ul id="nav-list">
+            <li>
+              <a href="index.html" id="nav-link1" class="active-link">Home</a>
+            </li>
+            <li>
+              <a href="skills.html" id="nav-link2" class="active-link"
+                >Skills</a
+              >
+            </li>
+            <li>
+              <a href="resume.html" id="nav-link3" class="active-link"
+                >Resume</a
+              >
+            </li>
+            <li>
+              <a href="portfolio.html" id="nav-link4" class="active-link"
+                >Portfolio</a
+              >
+            </li>
+            <li>
+              <a href="blog.html" id="nav-link5" class="active-link">Blog</a>
+            </li>
+            <li>
+              <a href="contact.html" id="nav-link6" class="active-link"
+                >Contact</a
+              >
+            </li>
+          </ul>
+
+          <div id="nav-close">
+            <i class="ri-close-fill"></i>
+          </div>
+        </div>
+        <div id="nav-toggle">
+          <i class="ri-menu-fill"></i>
+        </div>
+      </nav>
     </header>
     <main class="main">
-        <!--Home Page -->
-        <section id="home">
-            <div id="home__container" class="container grid">
-                <img src="img/shah-home-pg-bg.jpg" alt="" id="home__img">
-                <div id="home__data">
-                    <h1 id="home__name"><span>S</span><span>H</span><span>A</span><span>H</span> <span>S</span><span>U</span><span>L</span><span>T</span><span>A</span><span>N</span><span>U</span><span>L</span> <span>A</span><span>R</span><span>E</span><span>F</span><span>I</span><span>N</span><span>_</span></h1>
+      <!--Home Page -->
+      <section id="home">
+        <div id="home__container" class="container grid">
+          <img src="img/shah-home-pg-bg.jpg" alt="" id="home__img" />
+          <div id="home__data">
+            <h1 id="home__name">
+              <span>S</span><span>H</span><span>A</span><span>H</span>
+              <span>S</span><span>U</span><span>L</span><span>T</span
+              ><span>A</span><span>N</span><span>U</span><span>L</span>
+              <span>A</span><span>R</span><span>E</span><span>F</span
+              ><span>I</span><span>N</span><span>_</span>
+            </h1>
 
-                    <p id="home__work">
-                        <span>F</span><span>u</span><span>l</span><span>l</span><span>s</span><span>t</span><span>a</span><span>c</span><span>k</span> 
-                        <span>W</span><span>e</span><span>b</span> 
-                        <span>D</span><span>e</span><span>v</span><span>e</span><span>l</span><span>o</span><span>p</span><span>e</span><span>r</span><span>_</span>
-                    </p>
-                    
-                    <dl id="home__list">
-                        <div>
-                            <dt>EMAIL</dt>
-                            <dd>shahsarefin@gmail.com</dd>
-                        </div>
-                        <div>
-                            <dt>ADDRESS</dt>
-                            <dd>Winnipeg,MB,Canada</dd>
-                        </div>
-                    </dl>
-                    <div id="home__socials">
-                        <a href="https://github.com/shahsarefin" target="_blank" id="home_social_link1">
-                            <i class="ri-github-fill"></i>
-                        </a>
-                        <a href="https://linkedin.com/in/shahsarefin" target="_blank" id="home_social_link2">
-                            <i class="ri-linkedin-box-fill"></i>
-                        </a>
-                    </div>
-                    
-                    <div class="signature">
-                        Tanweer_
-                    </div>
-                    
-                </div>
-            </div>
-        </section>
-
-        <!--Introduction and Resume Download-->
-        <section class="intro section container">
-            <h2 id="intro-title">Hello!_</h2>
-            <p class="intro-details text-lg">
-            I'm a Junior Web Developer skilled in HTML, CSS, and JavaScript currently studying Fullstack Web Development, with a keen interest in backend development with Python and Django. I'm familiar with database management, especially using PostgreSQL.
-
-            Beyond web development, I've gained working knowledge in Microsoft Azure, Active Directory, and OSTicket, proving handy in troubleshooting various IT challenges. I pride myself on being a quick learner and a collaborative team player. My ambition? To craft impeccable, user-friendly websites and applications that not only resonate with users but also consistently exceed user expectations. My end game is to produce great web apps that users enjoy and adore.
+            <p id="home__work">
+              <span>F</span><span>u</span><span>l</span><span>l</span
+              ><span>s</span><span>t</span><span>a</span><span>c</span
+              ><span>k</span> <span>W</span><span>e</span><span>b</span>
+              <span>D</span><span>e</span><span>v</span><span>e</span
+              ><span>l</span><span>o</span><span>p</span><span>e</span
+              ><span>r</span><span>_</span>
             </p>
-            <a href="img/ShahSArefin.pdf" class="button button--flex text-sm">
-                <i class="ri-download-line"></i> Download CV
-            </a>
-        </section>
 
+            <dl id="home__list">
+              <div>
+                <dt>EMAIL</dt>
+                <dd>shahsarefin@gmail.com</dd>
+              </div>
+              <div>
+                <dt>ADDRESS</dt>
+                <dd>Winnipeg,MB,Canada</dd>
+              </div>
+            </dl>
+            <div id="home__socials">
+              <a
+                href="https://github.com/shahsarefin"
+                target="_blank"
+                id="home_social_link1"
+              >
+                <i class="ri-github-fill"></i>
+              </a>
+              <a
+                href="https://linkedin.com/in/shahsarefin"
+                target="_blank"
+                id="home_social_link2"
+              >
+                <i class="ri-linkedin-box-fill"></i>
+              </a>
+            </div>
 
+            <div class="signature">Tanweer_</div>
+          </div>
+        </div>
+      </section>
+
+      <!--Introduction and Resume Download-->
+      <section class="intro section container">
+        <h2 id="intro-title">Hello!_</h2>
+        <p class="intro-details text-lg">
+          I am a passionate software engineering enthusiast currently in the
+          last term of my study Diploma in full-stack web Development at Red
+          River College in Winnipeg, MB. In this program, I have gained
+          familiarity with various programming languages, databases, fundamental
+          IT concepts, and Software Engineering methodologies. I am eager to
+          apply these skills in real-world settings, and I am excited to embark
+          on a co-op term that will allow me to do so. I am committed to
+          continuous learning and have recently been expanding my knowledge in
+          deployment and cloud technologies. This commitment to staying
+          up-to-date with industry trends reflects my dedication to delivering
+          high-quality work and adapting to new challenges.
+        </p>
+        <a href="img/ShahSArefin.pdf" class="button button--flex text-sm">
+          <i class="ri-download-line"></i> Download CV
+        </a>
+      </section>
     </main>
     <footer>
-        <div class="footer-container">
-            <ul class="footer-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="skills.html">Skills</a></li>
-                <li><a href="resume.html">Resume</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-            <p>&copy; 2023 Shah. All rights reserved.</p>
-        </div>
+      <div class="footer-container">
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <p>&copy; 2023 Shah. All rights reserved.</p>
+      </div>
     </footer>
-    
-    
+
     <!-- Js Linked -->
     <script src="index.js"></script>
-  
-</body>
+  </body>
 </html>
-
-
-
